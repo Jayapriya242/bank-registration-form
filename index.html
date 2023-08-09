@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML DEMO FORM</title>
+</head>
+<body>
+    <h2>ACCOUNT OPENING FORM</h2>
+    <form>
+        <label for="first-name">First name: </label>
+        <input type="text"
+               placeholder="Enter your name"
+               id="first-name"
+               name="first-name"
+               required/>
+        <p>
+        <label for="last-name">Last name: </label>
+        <input type="text"
+                placeholder="Enter your name"
+                id="last-name"
+                name="last-name"
+                required/>
+        </p>
+        <p>
+        <label for="D-O-B">Date of Birth:</label>
+        <input type="text"
+               placeholder="Enter your DOB"
+               id="D-O-B"
+               name="D-O-B"
+               required
+               pattern="mm/dd/yyyy"/>
+        </p>
+        <label for="Age">Age:</label>
+        <input type="text"
+               placeholder="Enter your age"
+               id="Age"
+               name="Age"
+               required/>
+        <p>
+        <label for="Aadhar">Aadhar number:</label>
+        <input type="text" 
+               placeholder="Enter your Aadhar number"
+               id="Aadhar"
+               name="Aadhar"
+               required
+               pattern="^[2-9]{1}[0-9]{3}\\s[0-9]{4}\\s[0-9]{4}$"/>
+        </p>
+        <p>
+            <label for="type-of-acc">Type of Account: </label>
+        </p>
+        <p>
+            <input type="radio"
+                   id="Savings account"
+                   name="type-of-acc"
+                   checked/>
+            <label for="type-of-acc">Savings Account</label>    
+        </p>
+        <p>
+            <input type="radio"
+                   id="Current account"
+                   name="type-of-acc"
+                   checked/>
+            <label for="type-of-acc">Current account</label>    
+        </p>
+        <p>
+        <label for="nomi-name">Nominee name: </label>
+        <input type="text"
+                placeholder="Enter your nomi-name"
+                id="nomi-name"
+                name="nomi-name"
+                required/>
+
+        </p>
+        <p>
+            <label for="father-name">Father's name: </label>
+            <input type="text"
+                placeholder="Enter your father's Name"
+                id="father-name"
+                name="father-name"
+                required/>
+        </p>
+
+        <p>
+        <label for="mother-name">Mother's name: </label>
+        <input type="text"
+                placeholder="Enter your Mother's Name"
+                id="mother-name"
+                name="mother-name"
+                required/>
+        </p>
+        <p>
+            <label for="address">Address: </label>
+        </p>
+        <p>
+            <input type="text"
+                    placeholder="street address"
+                    id="Address"
+                    name="Address"
+                    required/>
+        </p>
+        <p>
+           <input type="text"
+                    placeholder="street address line 2"
+                    id="Address"
+                    name="Address"
+                    required/>
+            </p>
+            <p>
+            <input type="text"
+                    placeholder="city"
+                    id="Address"
+                    name="Address"
+                    required/>
+            <input type="text"
+                    placeholder="region"
+                    id="Address"
+                    name="Address"
+                    required/>
+             </p>
+             <p>
+                <input type="text"
+                        placeholder="postal/ZIP code"
+                        id="Address"
+                        name="Address"
+                        required/>
+                <input type="text"
+                        placeholder="country"
+                        id="Address"
+                        name="Address"
+                        required/>
+                 </p>
+    </form>
+</body>
